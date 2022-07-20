@@ -33,7 +33,7 @@ bot.on("message", (msg) => {
   }
 
   var bye = "eth";
-  if (msg.text.toString().toLowerCase().includes(bye)) {
+  if (msg.text.toString().toLowerCase().includes(eth)) {
     axios
       .get("https://api.upbit.com/v1/ticker?markets=KRW-ETH")
       .then(function (response) {
