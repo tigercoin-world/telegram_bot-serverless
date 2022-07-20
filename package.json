@@ -1,0 +1,28 @@
+{
+  "name": "telegram_bot-serverless",
+  "version": "1.0.0",
+  "description": "코인 시세 확인 Telegram 봇",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tigercoin-world/telegram_bot-serverless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tigercoin-world/telegram_bot-serverless/issues"
+  },
+  "homepage": "https://github.com/tigercoin-world/telegram_bot-serverless#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "node-fetch": "^2.6.7",
+    "node-telegram-bot-api": "^0.58.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
